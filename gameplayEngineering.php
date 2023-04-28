@@ -1,3 +1,7 @@
+<?php
+	$page = "gameplay";
+?>
+
 <!DOCTYPE HTML>
 <!--
 	Telephasic by HTML5 UP
@@ -19,34 +23,10 @@
 					<div id="header" class="container">
 
 						<!-- Logo -->
-							<h1 id="logo"><a href="index.html">Telephasic</a></h1>
+							<h1 id="logo"><a href="index.html">Home</a></h1>
 
 						<!-- Nav -->
-							<nav id="nav">
-								<ul>
-									<li>
-										<a href="#">Dropdown</a>
-										<ul>
-											<li><a href="#">Lorem ipsum dolor</a></li>
-											<li><a href="#">Magna phasellus</a></li>
-											<li><a href="#">Etiam dolore nisl</a></li>
-											<li>
-												<a href="#">Phasellus consequat</a>
-												<ul>
-													<li><a href="#">Lorem ipsum dolor</a></li>
-													<li><a href="#">Phasellus consequat</a></li>
-													<li><a href="#">Magna phasellus</a></li>
-													<li><a href="#">Etiam dolore nisl</a></li>
-												</ul>
-											</li>
-											<li><a href="#">Veroeros feugiat</a></li>
-										</ul>
-									</li>
-									<li><a href="left-sidebar.html">Left Sidebar</a></li>
-									<li class="break"><a href="right-sidebar.html">Right Sidebar</a></li>
-									<li><a href="no-sidebar.html">No Sidebar</a></li>
-								</ul>
-							</nav>
+						    <?php include("navBar.php"); ?>
 
 					</div>
 				</div>
@@ -77,7 +57,7 @@
 								<p>They will react to sound and sight, with sight filling a bar above the players head. The bar will fill faster the closer the player is to 
 								   the robot and once filled, will chase them.</p>
 								<center>
-								<img src="images/Gameplay/VioletRobots.png" width="800px">
+								<img src="images/Gameplay/VioletRobots.png" alt="Robots" width="800px">
 							    </center>
 								
 								<br>
@@ -88,7 +68,7 @@
 								<p>To fix this, I added a post process material that would increase in size when the player pressed their scan ability.</p>
 								<p>A trace would follow the material and tell any objects that <em>could</em> highlight to highlight a certain color.</p>
 								<center>
-								<img src="images/Gameplay/VioletScan.png" width="800px">
+								<img src="images/Gameplay/VioletScan.png" alt="Scan" width="800px">
 							    </center>
 
 								<br>
@@ -98,7 +78,7 @@
 								<p><strong>Problem:</strong> Players could not effectively use the throw mechanic to distract guards.</p>
 								<p><strong>Solution:</strong> I added a prediction path for the throw mechanic so that players could aim where they wanted and accurately throw the gear.</p>
 								<center>
-								<img src="images/Gameplay/VioletThrow.png" width="800px">
+								<img src="images/Gameplay/VioletThrow.png" alt="Throw" width="800px">
 							    </center>
 
 							</article>
