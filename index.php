@@ -44,6 +44,21 @@
 					<div class="container">
 						<div class="row">
 							<section class="col-6 col-12-narrower feature">
+								<div class="image-wrapper">
+									<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+								</div>
+								<header>
+									<h2>Synopsis</h2>
+								</header>
+								<p>Violet Steele is an action-packed, third-person stealth adventure game that 
+								   takes place in the captivating steampunk world of Novellia. As Violet, the 
+								   only person who knows the truth about her father's murder at the hands of the 
+								   Hex Alliance for inventing electricity, embark on a dangerous mission to infiltrate 
+								   their headquarters and retrieve the blueprints. But watch out - the path ahead is fraught 
+								   with peril as the enemy's powerful robots will stop at nothing to protect their secrets. 
+								   Use your craftiness and stealth to evade detection and achieve your goals in this thrilling adventure.</p>
+							</section>
+							<section class="col-6 col-12-narrower feature">
 								<div class="image-wrapper first">
 									<a href="#" class="image featured first"><img src="images/pic01.jpg" alt="" /></a>
 								</div>
@@ -56,18 +71,6 @@
 									<p>5</p>
 								<h3>TOOLS USED</h3>
 									<p>Unreal Engine | GitHub<br>Maya | Photoshop | Procreate<br> FL Studio</p>
-							</section>
-							<section class="col-6 col-12-narrower feature">
-								<div class="image-wrapper">
-									<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
-								</div>
-								<header>
-									<h2>Amet lorem ipsum dolor<br />
-									sit consequat magna</h2>
-								</header>
-								<p>Lorem ipsum dolor sit amet consectetur et sed adipiscing elit. Curabitur vel
-								sem sit dolor neque semper magna. Lorem ipsum dolor sit amet consectetur et sed
-								adipiscing elit. Curabitur vel sem sit.</p>
 							</section>
 						</div>
 					</div>
@@ -87,38 +90,7 @@
 
 			<!-- Features 2 -->
 				<div class="wrapper">
-					<section class="container">
-						<header class="major">
-							<h2>Sed magna consequat lorem curabitur tempus</h2>
-							<p>Elit aliquam vulputate egestas euismod nunc semper vehicula lorem blandit</p>
-						</header>
-						<div class="row features">
-							<section class="col-4 col-12-narrower feature">
-								<div class="image-wrapper first">
-									<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-								</div>
-								<p>Lorem ipsum dolor sit amet consectetur et sed adipiscing elit. Curabitur
-								vel sem sit dolor neque semper magna lorem ipsum.</p>
-							</section>
-							<section class="col-4 col-12-narrower feature">
-								<div class="image-wrapper">
-									<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
-								</div>
-								<p>Lorem ipsum dolor sit amet consectetur et sed adipiscing elit. Curabitur
-								vel sem sit dolor neque semper magna lorem ipsum.</p>
-							</section>
-							<section class="col-4 col-12-narrower feature">
-								<div class="image-wrapper">
-									<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
-								</div>
-								<p>Lorem ipsum dolor sit amet consectetur et sed adipiscing elit. Curabitur
-								vel sem sit dolor neque semper magna lorem ipsum.</p>
-							</section>
-						</div>
-						<ul class="actions major">
-							<li><a href="#" class="button">Elevate my awareness</a></li>
-						</ul>
-					</section>
+						<?php include("bottomRec.php"); ?>
 				</div>
 
 			<!-- Footer -->
