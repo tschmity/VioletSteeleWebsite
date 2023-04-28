@@ -29,15 +29,11 @@
 					<!-- Hero -->
 						<section id="hero" class="container">
 							<header>
-								<h2>Telephasic is a responsive
-								<br />
-								site template by <a href="http://html5up.net">HTML5 UP</a></h2>
+								<h2>Violet Steele</h2>
 							</header>
-							<p>Designed and built by <a href="http://twitter.com/ajlkn">AJ</a> and released for free under
-							<br />
-							the <a href="http://html5up.net/license">Creative Commons Attribution 3.0 license</a>.</p>
+							<p>A third-person stealth action-adventure game.</p>
 							<ul class="actions">
-								<li><a href="#" class="button">Get this party started</a></li>
+								<li><a href="https://leunarie.itch.io/violet-steele" class="button">Download Link</a></li>
 							</ul>
 						</section>
 
@@ -52,15 +48,14 @@
 									<a href="#" class="image featured first"><img src="images/pic01.jpg" alt="" /></a>
 								</div>
 								<header>
-									<h2>Semper magna neque vel<br />
-									adipiscing curabitur</h2>
+									<h2>Development Information</h2>
 								</header>
-								<p>Lorem ipsum dolor sit amet consectetur et sed adipiscing elit. Curabitur vel
-								sem sit dolor neque semper magna. Lorem ipsum dolor sit amet consectetur et sed
-								adipiscing elit. Curabitur vel sem sit.</p>
-								<ul class="actions">
-									<li><a href="#" class="button">Elevate my awareness</a></li>
-								</ul>
+								<h3>DURATION</h3>
+									<p>12 weeks</p>
+								<h3>TEAM SIZE</h3>
+									<p>5</p>
+								<h3>TOOLS USED</h3>
+									<p>Unreal Engine | GitHub<br>Maya | Photoshop | Procreate<br> FL Studio</p>
 							</section>
 							<section class="col-6 col-12-narrower feature">
 								<div class="image-wrapper">
@@ -73,9 +68,6 @@
 								<p>Lorem ipsum dolor sit amet consectetur et sed adipiscing elit. Curabitur vel
 								sem sit dolor neque semper magna. Lorem ipsum dolor sit amet consectetur et sed
 								adipiscing elit. Curabitur vel sem sit.</p>
-								<ul class="actions">
-									<li><a href="#" class="button">Elevate my awareness</a></li>
-								</ul>
 							</section>
 						</div>
 					</div>
@@ -84,8 +76,12 @@
 			<!-- Promo -->
 				<div id="promo-wrapper">
 					<section id="promo">
-						<h2>Neque semper magna et lorem ipsum adipiscing</h2>
-						<a href="#" class="button">Breach the thresholds</a>
+
+					<!--Kathy embedding stuff -->
+					<iframe width="938" height="526" src="https://www.youtube.com/embed/uWWrQzgqdaM" 
+						title="Violet Steele Gameplay" frameborder="0" allow="accelerometer; autoplay; 
+						clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 					</section>
 				</div>
 
